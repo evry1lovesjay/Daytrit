@@ -28,6 +28,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.scss" />
     <script
       defer
@@ -41,15 +42,26 @@
   <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
   <body>
 
-    <!-- <header>
-      <a href="#">Daytrit</a>
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Packages</a>
-      <a href="#">Contact us</a>
-    </header> -->
-
     <div id="top"></div>
+    <!-- **** Header Section **** -->
+
+    <header class="main_home_header">
+      <nav class="topnav" id="myTopnav">
+          <a href="!#" class="nav_link active">Daytrit</a>
+          <a href="#top" class="nav_link">Home</a>
+          <a href="#about" class="nav_link">About</a>
+          <a href="#projects" class="nav_link">Packages</a>
+          <a href="#download" class="nav_link">Download</a>
+          <a href="#contact" class="nav_link">Contact</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+          </a>
+      </nav>
+    </header>
+
+   
+
+    <!-- <div id="top"></div> -->
 
     <!-- **** Hero Section **** -->
     <section id="hero" class="jumbotron">
@@ -124,7 +136,7 @@
         <div class="project-wrapper">
           <h2 class="section-title dark-blue-text">Trit Packages</h2>
           <p class="mb-4">Users are open to subscribe to any of the following packages; Freemium and Premium</p>
-
+        </br>
            <h3 class="project-wrapper__text-title">HOW DAYTRIT WORKS:</h3> 
             <p> DayTrit mobile tourism app provide users with a safe, secure and exciting platform to access and explore all the special treats 
             and fantastic tourist destinations locally and internationally.</p>
@@ -239,6 +251,49 @@
     </section>
     <!-- /END Projects Section -->
 
+    <!-- **** Download Section **** -->
+    <section id="download" class="download">
+      <div class="container">
+        <img
+                alt="Profile Image"
+                height="auto"
+                width="10%"
+                src="assets/favicon.png"
+                alt="Profile Image"    
+              />
+        <h2 class="section-title load-hidden">Daytrit</h2>
+        <p>A new way to travel.</p>
+        <div class="row about-wrapper">
+          <div class="col-md-12 col-sm-12">
+            <div class="about-wrapper__image load-hidden">
+              <img
+                alt="Profile Image"
+                height="auto"
+                width="30%"
+                src="assets/mkup-img_v3.png"
+                alt="Profile Image"    
+              />
+            </div>
+            
+            <div class="dd_paragragh">
+              <p >
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  href="#!"
+                  class="download_link"
+                >
+                Daytrit for
+                <strong>Android</strong> 
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>     
+      </div>
+    </section>
+    <!-- /END Download Section -->
+
     <!-- **** Contact Section **** -->
     <section id="contact">
       <div class="container">
@@ -294,5 +349,6 @@
     <!-- /END Footer Section -->
 
     <script defer type="module" src="index.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>

@@ -1,0 +1,19 @@
+.download {
+    margin-bottom: 100px;
+    background-color: whitesmoke;
+    
+    &_link{
+        text-decoration: none;
+        color: black;       
+        font-size: 32px;
+
+        &:hover{
+            color: green;
+        }
+    }
+
+}
+
+.dd_paragraph {
+    background-color: red;       
+}

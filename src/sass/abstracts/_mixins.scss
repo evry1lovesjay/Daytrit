@@ -83,3 +83,14 @@ ORDER: Base + Typography > Generar Layout + Grid > Page Layout > Components
     @content;
   }
 }
+
+@mixin fireup-border{
+  border-width: 7px;
+  border-color: red;
+  border-style: solid;
+}
+
+@mixin full-justification{
+  text-align: justify;
+  text-justify: inter-word;
+}

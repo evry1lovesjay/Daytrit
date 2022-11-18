@@ -20,7 +20,7 @@
 
         &.active {
             background-color: green;
-            color: whitre;
+            color: white;
         }
 
         &:hover{
@@ -45,6 +45,8 @@
     .topnav a.icon {
       float: right;
       display: block;
+      padding-left:  30px;
+      padding-right:  30px;
     }
   }
   

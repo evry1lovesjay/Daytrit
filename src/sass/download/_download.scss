@@ -1,5 +1,5 @@
 .download {
-    margin-bottom: 50px;
+    margin-bottom: 5px;
     background-color: white;
     
     &_link{
@@ -8,12 +8,16 @@
         font-size: 32px;
 
         &:hover{
-            color: green;
+            color: #00cdac;
         }
     }
 
 }
 
 .dd_paragraph {
-    background-color: red;       
+   @include fireup-border;      
+}
+
+.full-justify{
+    @include full-justification;
 }

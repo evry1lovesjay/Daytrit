@@ -1,6 +1,11 @@
 .download {
     margin-bottom: 5px;
     background-color: white;
+
+    &_icons{
+        display: flex;
+        justify-content: center;
+    }
     
     &_link{
         text-decoration: none;

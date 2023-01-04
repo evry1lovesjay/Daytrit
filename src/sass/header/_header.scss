@@ -19,12 +19,13 @@
         text-align: center;
 
         &.active {
-            background-color: green;
-            color: white;
+          // background-color: #03a688;
+          background-color: #03947a;
+          color: white;
         }
 
         &:hover{
-            background-color: green;
+            background-color: #03947a;
             color: white;
         }
 

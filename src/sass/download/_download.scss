@@ -1,5 +1,5 @@
 .download {
-    margin-bottom: 5px;
+    margin-bottom: 8rem;
     background-color: white;
 
     &_icons{
@@ -25,4 +25,9 @@
 
 .full-justify{
     @include full-justification;
+}
+
+.privacy-policy{
+    margin-top: 120px;
+    // @include fireup-border;
 }
